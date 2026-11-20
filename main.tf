@@ -1,6 +1,6 @@
 resource "azurerm_resource_group" "mainvg" {
   location = "eastus2"
-  name     = "digi-acc-rg"
+  name     = "RG-2"
 }
 /*
 data "azurerm_subscription" "main" {
