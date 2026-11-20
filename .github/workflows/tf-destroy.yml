@@ -2,11 +2,7 @@ name: Terraform pipe to destroy resoruces on azure
 
 on:
 workflow_dispatch:
-  inputs:
-    environment:
-      description: 'Environment to destroy'
-      required: true
-      default: 'dev'
+
 
 permissions:
   id-token: write
