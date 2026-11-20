@@ -1,8 +1,8 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "digi-tfstate-rg"
-    storage_account_name = "digidevstate"
-    container_name       = "tfstatecontainer"
+    resource_group_name  = "RG-2"
+    storage_account_name = "digisureshstatebucket"
+    container_name       = "infra-dfstate-container"
     key                  = "dev-terraform.tfstate"
   }
 }
